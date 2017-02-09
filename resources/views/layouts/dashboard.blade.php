@@ -52,15 +52,11 @@
             <li class="visible-xs visible-sm"><a id="sidebar-menu"><i class="fa fa-navicon"></i></a></li>
         </ul>
 
-        <form class="navbar-form navbar-left">
-            <button type="submit" class="fa fa-search"></button>
-            <input type="text" class="form-control" placeholder="Search..."></a>
-        </form>
+        {{--<form class="navbar-form navbar-left">--}}
+            {{--<button type="submit" class="fa fa-search"></button>--}}
+            {{--<input type="text" class="form-control" placeholder="Search..."></a>--}}
+        {{--</form>--}}
 
-        <div class="copyrights">
-            Collect from
-            <a href="http://greenbay.usc.edu/csci577/fall2016/projects/team10">Team10</a>
-        </div>
         <ul class="nav navbar-nav navbar-right">
             <li class="dropdown visible-md visible-lg">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope-o"></i><span
@@ -188,12 +184,8 @@
                     <li class="dropdown-menu-header">
                         <strong>Account</strong>
                     </li>
-                    <li><a href="page-profile.html"><i class="fa fa-user"></i> Profile</a></li>
-                    <li><a href="page-login.html"><i class="fa fa-wrench"></i> Settings</a></li>
-                    <li><a href="page-invoice.html"><i class="fa fa-usd"></i> Payments <span
-                                    class="label label-default">10</span></a></li>
-                    <li><a href="gallery.html"><i class="fa fa-file"></i> File <span
-                                    class="label label-primary">27</span></a></li>
+                    <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                    <li><a href="#"><i class="fa fa-wrench"></i> Settings</a></li>
                     <li class="divider"></li>
                     <li><a href="{{ url('/logout') }}"><i class="fa fa-sign-out"></i> Logout</a></li>
                 </ul>
