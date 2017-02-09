@@ -86,7 +86,6 @@
 @stop
 
 @section('content')
-
     <div class="row">
         <div class="col-lg-12">
             <h3 class="page-header"><i class="fa fa-file-text"></i>Profile</h3>
@@ -120,8 +119,7 @@
                         <div class="text-center">
                             <img class="img-profile" src="{{ asset('cssnew/assets/img/avatar.jpg') }}">
                         </div>
-                        <h3 class="text-center"><strong id="youth_name">{{ $data->last_name }}
-                                , {{ $data->first_name }}</strong></h3>
+                        <h3 class="text-center"><strong id="youth_name">{{ $data->last_name }}, {{ $data->first_name }}</strong></h3>
                         @if($caseUser == null)
                             <button type="button" class="btn btn-block btn-success center-block" style="width: 45%"
                                     data-toggle="modal" data-target="#createAccount">

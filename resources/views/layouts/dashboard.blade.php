@@ -65,119 +65,119 @@
             <li class="dropdown visible-md visible-lg">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope-o"></i><span
                             class="badge">5</span></a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-menu-header">
-                        <strong>Messages</strong>
-                        <div class="progress thin">
-                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30"
-                                 aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                                <span class="sr-only">30% Complete (success)</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="avatar">
-                        <a href="page-inbox.html">
-                            <img class="avatar" src="{{ asset('cssnew/assets/img/avatar1.jpg') }}">
-                            <div>New message</div>
-                            <small>1 minute ago</small>
-                            <span class="label label-info">NEW</span>
-                        </a>
-                    </li>
-                    <li class="avatar">
-                        <a href="page-inbox.html">
-                            <img class="avatar" src="{{ asset('cssnew/assets/img/avatar2.jpg') }}">
-                            <div>New message</div>
-                            <small>3 minute ago</small>
-                            <span class="label label-info">NEW</span>
-                        </a>
-                    </li>
-                    <li class="avatar">
-                        <a href="page-inbox.html">
-                            <img class="avatar" src="{{ asset('cssnew/assets/img/avatar3.jpg') }}">
-                            <div>New message</div>
-                            <small>4 minute ago</small>
-                            <span class="label label-info">NEW</span>
-                        </a>
-                    </li>
-                    <li class="avatar">
-                        <a href="page-inbox.html">
-                            <img class="avatar" src="{{ asset('cssnew/assets/img/avatar4.jpg') }}">
-                            <div>New message</div>
-                            <small>30 minute ago</small>
-                        </a>
-                    </li>
-                    <li class="avatar">
-                        <a href="page-inbox.html">
-                            <img class="avatar" src="{{ asset('cssnew/assets/img/avatar5.jpg') }}">
-                            <div>New message</div>
-                            <small>1 hours ago</small>
-                        </a>
-                    </li>
-                    <li class="dropdown-menu-footer text-center">
-                        <a href="page-inbox.html">View all messages</a>
-                    </li>
-                </ul>
+                {{--<ul class="dropdown-menu">--}}
+                    {{--<li class="dropdown-menu-header">--}}
+                        {{--<strong>Messages</strong>--}}
+                        {{--<div class="progress thin">--}}
+                            {{--<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30"--}}
+                                 {{--aria-valuemin="0" aria-valuemax="100" style="width: 30%">--}}
+                                {{--<span class="sr-only">30% Complete (success)</span>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</li>--}}
+                    {{--<li class="avatar">--}}
+                        {{--<a href="page-inbox.html">--}}
+                            {{--<img class="avatar" src="{{ asset('cssnew/assets/img/avatar1.jpg') }}">--}}
+                            {{--<div>New message</div>--}}
+                            {{--<small>1 minute ago</small>--}}
+                            {{--<span class="label label-info">NEW</span>--}}
+                        {{--</a>--}}
+                    {{--</li>--}}
+                    {{--<li class="avatar">--}}
+                        {{--<a href="page-inbox.html">--}}
+                            {{--<img class="avatar" src="{{ asset('cssnew/assets/img/avatar2.jpg') }}">--}}
+                            {{--<div>New message</div>--}}
+                            {{--<small>3 minute ago</small>--}}
+                            {{--<span class="label label-info">NEW</span>--}}
+                        {{--</a>--}}
+                    {{--</li>--}}
+                    {{--<li class="avatar">--}}
+                        {{--<a href="page-inbox.html">--}}
+                            {{--<img class="avatar" src="{{ asset('cssnew/assets/img/avatar3.jpg') }}">--}}
+                            {{--<div>New message</div>--}}
+                            {{--<small>4 minute ago</small>--}}
+                            {{--<span class="label label-info">NEW</span>--}}
+                        {{--</a>--}}
+                    {{--</li>--}}
+                    {{--<li class="avatar">--}}
+                        {{--<a href="page-inbox.html">--}}
+                            {{--<img class="avatar" src="{{ asset('cssnew/assets/img/avatar4.jpg') }}">--}}
+                            {{--<div>New message</div>--}}
+                            {{--<small>30 minute ago</small>--}}
+                        {{--</a>--}}
+                    {{--</li>--}}
+                    {{--<li class="avatar">--}}
+                        {{--<a href="page-inbox.html">--}}
+                            {{--<img class="avatar" src="{{ asset('cssnew/assets/img/avatar5.jpg') }}">--}}
+                            {{--<div>New message</div>--}}
+                            {{--<small>1 hours ago</small>--}}
+                        {{--</a>--}}
+                    {{--</li>--}}
+                    {{--<li class="dropdown-menu-footer text-center">--}}
+                        {{--<a href="page-inbox.html">View all messages</a>--}}
+                    {{--</li>--}}
+                {{--</ul>--}}
             </li>
             <li class="dropdown visible-md visible-lg">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell-o"></i><span
                             class="badge">3</span></a>
-                <ul class="dropdown-menu">
-                    <li class="dropdown-menu-header">
-                        <strong>Notifications</strong>
-                        <div class="progress thin">
-                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30"
-                                 aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                                <span class="sr-only">30% Complete (success)</span>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="clearfix">
-                        <i class="fa fa-comment"></i>
-                        <a href="page-activity.html" class="notification-user"> Sharon Rose </a>
-                        <span class="notification-action"> replied to your </span>
-                        <a href="page-activity.html" class="notification-link"> comment</a>
-                    </li>
-                    <li class="clearfix">
-                        <i class="fa fa-pencil"></i>
-                        <a href="page-activity.html" class="notification-user"> Nadine </a>
-                        <span class="notification-action"> just write a </span>
-                        <a href="page-activity.html" class="notification-link"> post</a>
-                    </li>
-                    <li class="clearfix">
-                        <i class="fa fa-trash-o"></i>
-                        <a href="page-activity.html" class="notification-user"> Lorenzo </a>
-                        <span class="notification-action"> just remove <a href="#"
-                                                                          class="notification-link"> 12 files</a></span>
-                    </li>
-                    <li class="dropdown-menu-footer text-center">
-                        <a href="page-activity.html">View all notification</a>
-                    </li>
-                </ul>
+                {{--<ul class="dropdown-menu">--}}
+                    {{--<li class="dropdown-menu-header">--}}
+                        {{--<strong>Notifications</strong>--}}
+                        {{--<div class="progress thin">--}}
+                            {{--<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30"--}}
+                                 {{--aria-valuemin="0" aria-valuemax="100" style="width: 30%">--}}
+                                {{--<span class="sr-only">30% Complete (success)</span>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</li>--}}
+                    {{--<li class="clearfix">--}}
+                        {{--<i class="fa fa-comment"></i>--}}
+                        {{--<a href="page-activity.html" class="notification-user"> Sharon Rose </a>--}}
+                        {{--<span class="notification-action"> replied to your </span>--}}
+                        {{--<a href="page-activity.html" class="notification-link"> comment</a>--}}
+                    {{--</li>--}}
+                    {{--<li class="clearfix">--}}
+                        {{--<i class="fa fa-pencil"></i>--}}
+                        {{--<a href="page-activity.html" class="notification-user"> Nadine </a>--}}
+                        {{--<span class="notification-action"> just write a </span>--}}
+                        {{--<a href="page-activity.html" class="notification-link"> post</a>--}}
+                    {{--</li>--}}
+                    {{--<li class="clearfix">--}}
+                        {{--<i class="fa fa-trash-o"></i>--}}
+                        {{--<a href="page-activity.html" class="notification-user"> Lorenzo </a>--}}
+                        {{--<span class="notification-action"> just remove <a href="#"--}}
+                                                                          {{--class="notification-link"> 12 files</a></span>--}}
+                    {{--</li>--}}
+                    {{--<li class="dropdown-menu-footer text-center">--}}
+                        {{--<a href="page-activity.html">View all notification</a>--}}
+                    {{--</li>--}}
+                {{--</ul>--}}
             </li>
             <li class="dropdown visible-md visible-lg">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-gears"></i></a>
-                <ul class="dropdown-menu update-menu" role="menu">
-                    <li><a href="#"><i class="fa fa-database"></i> Database </a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-bar-chart-o"></i> Connection </a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-bell"></i> Notification </a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-envelope"></i> Message </a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-flash"></i> Traffic </a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-credit-card"></i> Invoices </a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-dollar"></i> Finances </a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-thumbs-o-up"></i> Orders </a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-folder"></i> Directories </a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-users"></i> Users </a>
-                    </li>
-                </ul>
+                {{--<ul class="dropdown-menu update-menu" role="menu">--}}
+                    {{--<li><a href="#"><i class="fa fa-database"></i> Database </a>--}}
+                    {{--</li>--}}
+                    {{--<li><a href="#"><i class="fa fa-bar-chart-o"></i> Connection </a>--}}
+                    {{--</li>--}}
+                    {{--<li><a href="#"><i class="fa fa-bell"></i> Notification </a>--}}
+                    {{--</li>--}}
+                    {{--<li><a href="#"><i class="fa fa-envelope"></i> Message </a>--}}
+                    {{--</li>--}}
+                    {{--<li><a href="#"><i class="fa fa-flash"></i> Traffic </a>--}}
+                    {{--</li>--}}
+                    {{--<li><a href="#"><i class="fa fa-credit-card"></i> Invoices </a>--}}
+                    {{--</li>--}}
+                    {{--<li><a href="#"><i class="fa fa-dollar"></i> Finances </a>--}}
+                    {{--</li>--}}
+                    {{--<li><a href="#"><i class="fa fa-thumbs-o-up"></i> Orders </a>--}}
+                    {{--</li>--}}
+                    {{--<li><a href="#"><i class="fa fa-folder"></i> Directories </a>--}}
+                    {{--</li>--}}
+                    {{--<li><a href="#"><i class="fa fa-users"></i> Users </a>--}}
+                    {{--</li>--}}
+                {{--</ul>--}}
             </li>
             <li class="dropdown visible-md visible-lg">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="user-avatar"
@@ -243,17 +243,17 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="table.html"><i class="fa fa-table"></i><span class="text"> Report</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-envelope"></i><span class="text"> Email</span> <span class="fa fa-angle-down pull-right"></span></a>
-                                <ul class="nav sub">
-                                    <li><a href="#"><i class="fa fa-plus-circle"></i><span class="text"> New Email</span></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-cogs"></i><span class="text"> Email Settings</span></a>
-                                    </li>
-                                </ul>
-                            </li>
+                            {{--<li><a href="table.html"><i class="fa fa-table"></i><span class="text"> Report</span></a>--}}
+                            {{--</li>--}}
+                            {{--<li>--}}
+                                {{--<a href="#"><i class="fa fa-envelope"></i><span class="text"> Email</span> <span class="fa fa-angle-down pull-right"></span></a>--}}
+                                {{--<ul class="nav sub">--}}
+                                    {{--<li><a href="#"><i class="fa fa-plus-circle"></i><span class="text"> New Email</span></a>--}}
+                                    {{--</li>--}}
+                                    {{--<li><a href="#"><i class="fa fa-cogs"></i><span class="text"> Email Settings</span></a>--}}
+                                    {{--</li>--}}
+                                {{--</ul>--}}
+                            {{--</li>--}}
                             <li>
                                 <a href="#"><i class="fa fa-cogs"></i><span class="text"> Settings</span> <span class="fa fa-angle-down pull-right"></span></a>
                                 <ul class="nav sub">
@@ -281,22 +281,22 @@
                                     <li><a href="#"><i class="fa fa-th"></i><span class="text"> blank4</span></a></li>
                                 </ul>
                             </li>
-                            <li><a href="typography.html"><i class="fa fa-font"></i><span
-                                            class="text"> Typography</span></a></li>
-                            <li>
-                                <a href="#"><i class="fa fa-bolt"></i><span class="text"> Icons</span> <span
-                                            class="fa fa-angle-down pull-right"></span></a>
-                                <ul class="nav sub">
-                                    <li><a href="icons-font-awesome.html"><i class="fa fa-meh-o"></i><span class="text"> Font Awesome</span></a>
-                                    </li>
-                                    <li><a href="icons-climacons.html"><i class="fa fa-meh-o"></i><span class="text"> Climacons</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="gallery.html"><i class="fa fa-picture-o"></i><span class="text"> Gallery</span></a>
-                            </li>
-                            <li><a href="calendar.html"><i class="fa fa-calendar"></i><span
-                                            class="text"> Calendar</span></a></li>
+                            {{--<li><a href="typography.html"><i class="fa fa-font"></i><span--}}
+                                            {{--class="text"> Typography</span></a></li>--}}
+                            {{--<li>--}}
+                                {{--<a href="#"><i class="fa fa-bolt"></i><span class="text"> Icons</span> <span--}}
+                                            {{--class="fa fa-angle-down pull-right"></span></a>--}}
+                                {{--<ul class="nav sub">--}}
+                                    {{--<li><a href="icons-font-awesome.html"><i class="fa fa-meh-o"></i><span class="text"> Font Awesome</span></a>--}}
+                                    {{--</li>--}}
+                                    {{--<li><a href="icons-climacons.html"><i class="fa fa-meh-o"></i><span class="text"> Climacons</span></a>--}}
+                                    {{--</li>--}}
+                                {{--</ul>--}}
+                            {{--</li>--}}
+                            {{--<li><a href="gallery.html"><i class="fa fa-picture-o"></i><span class="text"> Gallery</span></a>--}}
+                            {{--</li>--}}
+                            {{--<li><a href="calendar.html"><i class="fa fa-calendar"></i><span--}}
+                                            {{--class="text"> Calendar</span></a></li>--}}
                         </ul>
                     </div>
                 @elseif($user->inRole($manager))
