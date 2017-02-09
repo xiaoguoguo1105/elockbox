@@ -14,7 +14,7 @@
         });
         function test(obj) {
 
-            if (obj.value == document.getElementById('youth_name').innerHTML) {
+            if ((obj.value == document.getElementById('youth_name1').innerHTML) || (obj.value == document.getElementById('youth_name2').innerHTML)) {
                 document.getElementById("delCase").disabled = false;
             } else {
                 document.getElementById("delCase").disabled = true;
@@ -86,6 +86,9 @@
 @stop
 
 @section('content')
+    <?php $youth_name1 = $data->last_name.', '.$data->first_name; $youth_name2 = $data->first_name.' '.$data->last_name ?>
+    <div id="youth_name1" style="display: none; visibility: hidden;">{{$youth_name1}}</div>
+    <div id="youth_name2" style="display: none; visibility: hidden;">{{$youth_name2}}</div>
     <div class="row">
         <div class="col-lg-12">
             <h3 class="page-header"><i class="fa fa-file-text"></i>Profile</h3>
@@ -119,7 +122,10 @@
                         <div class="text-center">
                             <img style="width: 120px; height: 120px" class="img-profile" src="{{ asset('cssnew/assets/img/avatardefault.png') }}">
                         </div>
-                        <h3 class="text-center"><strong id="youth_name">{{ $data->last_name }}, {{ $data->first_name }}</strong></h3>
+
+                        <h3 class="text-center"><strong>{{ $data->last_name }}
+                                , {{ $data->first_name }}</strong></h3>
+
                         @if($caseUser == null)
                             <button type="button" class="btn btn-block btn-success center-block" style="width: 45%"
                                     data-toggle="modal" data-target="#createAccount">
@@ -696,10 +702,10 @@
                     This will permanently delete this case, case profile, youth account, history and documents.<br>
                     We <strong>SUGGEST</strong> you to <strong>inactivate</strong> instead.<br><br>
                     <strong>Please input Youth name of this case:</strong><br>
-                    Notice: There is a space between last name and first name
+                    Notice: Either "Firstname Lastname" or "Lastname, Firstname" is OK.
                     {!! Form::open(['url' => 'admin/case/'.$data->id.'/delete']) !!}
                     <div class="form-group row" style="margin-top: 10px; padding-left: 15px; padding-right: 15px;">
-                        {{ Form::text('youth_name', null, ['placeholder' => 'Last name, First name', 'class' => 'form-control', 'style' => 'margin-bottom: 15px', 'onkeyup' => 'test(this)', 'autocomplete' => 'off']) }}
+                        {{ Form::text('youth_name', null, ['placeholder' => '"Lastname, Firstname" or "Firstname Lastname"', 'class' => 'form-control', 'style' => 'margin-bottom: 15px', 'onkeyup' => 'test(this)', 'autocomplete' => 'off']) }}
 
                         {{ Form::submit('I understand the consequences, delete this case', ['id' => 'delCase', 'class' => 'btn btn-danger pull-right', 'disabled']) }}
                     </div>
