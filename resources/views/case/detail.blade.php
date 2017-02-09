@@ -117,7 +117,7 @@
                     {{--Avatar--}}
                     <div class="col-md-4" style="margin-top: 20px">
                         <div class="text-center">
-                            <img class="img-profile" src="{{ asset('cssnew/assets/img/avatar.jpg') }}">
+                            <img style="width: 120px; height: 120px" class="img-profile" src="{{ asset('cssnew/assets/img/avatardefault.png') }}">
                         </div>
                         <h3 class="text-center"><strong id="youth_name">{{ $data->last_name }}, {{ $data->first_name }}</strong></h3>
                         @if($caseUser == null)

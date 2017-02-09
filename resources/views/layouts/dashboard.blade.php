@@ -181,7 +181,7 @@
             </li>
             <li class="dropdown visible-md visible-lg">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img class="user-avatar"
-                                                                                src="{{ asset('cssnew/assets/img/avatar.jpg') }}"
+                                                                                src="{{ asset('cssnew/assets/img/avatardefault.png') }}"
                                                                                 alt="user-mail">{{Sentinel::getUser()->email}}
                 </a>
                 <ul class="dropdown-menu">
